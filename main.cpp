@@ -2,7 +2,6 @@
 // Created by arthurxiang on 17-8-5.
 //
 
-// g++ screena.cpp -o screena -lX11 -lXext -Ofast -mfpmath=both -march=native -m64 -funroll-loops -mavx2 `pkg-config opencv --cflags --libs` && ./screena
 #include <opencv2/opencv.hpp>  // This includes most headers!
 #include "XlibShoter.h"
 
